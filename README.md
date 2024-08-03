@@ -72,7 +72,7 @@ My journey in the tech world includes competitive programming, which sharpens my
 
 **My Role:** Developed and implemented a robust backend server using Flask to synchronize user data across multiple devices using socketIO, ensuring data integrity and real-time updates.
 
-[GitHub Repository](https://github.com/ahmedhozny/walletwize)
+[GitHub Repository](https://github.com/ahmedhozny/walletwize-api)
 
 ---
 
