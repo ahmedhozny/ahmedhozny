@@ -1,0 +1,174 @@
+name: Ahmed Hosny
+bio: Recent graduate in Computing and Data Science with a strong foundation in backend engineering, specializing in Java, Python, and PHP. My passion for coding began years ago, leading to a deep understanding of problem-solving and competitive programming. As a recent graduate, I am eager to contribute my skills and grow in a dynamic software engineer role.
+
+addresses:
+  - country: Qatar
+    city: Doha
+    dialing-code: +974
+    living: true
+  - country: Egypt
+    city: Alexandria
+    dialing-code: +20
+    home: true
+
+contacts:
+  phone-numbers:
+    +974:
+      - text: +974 5560 9505
+        link: 0097455609505
+        display: true
+    +20:
+      - text: +20 110 255 8780
+        link: 00201102558780
+        display: true
+  email-addresses:
+    - email: ahmhosny2002@gmail.com
+      display: true
+  social-media:
+    linkedin:
+      url: https://www.linkedin.com/in/ahmedhosny2002
+      display: true
+      icon-fa: fa-linkedin-in
+    github:
+      url: https://github.com/ahmedhozny
+      display: true
+      icon-fa: fa-github
+    facebook:
+      url: https://www.facebook.com/Ahmedhosny2002
+      display: true
+      icon-fa: fa-facebook-f
+
+education:
+  - institution: Alexandria University
+    degree: Bachelor of Science
+    start-date: 2020-10
+    end-date: 2024-06
+    summary:
+      - "Computers and Data Science - Data Science Program"
+      - "GPA: 3.3498"
+
+  - institution: ALX Software Engineering
+    degree: Backend Specialization
+    start-date: 2023-05
+    end-date: 2024-08
+
+  - institution: Egyptian Language School - Qatar
+    degree: IGCSE and IAL
+    start-date: 2017-09
+    end-date: 2020-06
+
+projects:
+  - title: Drug Guardian Pro
+    subtitle: Enhancing Drug Combination Safety - University Final Project
+    start-date: 2023-10
+    end-date: 2024-06
+    summary:
+      - "Drug Guardian Pro is an advanced tool designed to enhance the safety of drug combinations by providing real-time alerts and detailed information about potential drug interactions."
+      - "Targeting hospitals and the pharmaceutical industry, the application ensures that medication regimens are safe and effective for both healthcare professionals and patients."
+      - "The backend was developed primarily using FastAPI, a high-performance Python framework. We implemented strong security measures, including basic and Kerberos authentication, to protect sensitive health information."
+      - "The project is deployed on Google Cloud. Additionally, I optimized the computing performance independently, allowing for faster and more efficient machine learning model training, which enhances the system's overall reliability and responsiveness."
+    links:
+      github: https://github.com/ahmedhozny/drug-guardian-api
+
+  - title: WalletWize
+    subtitle: Expense Tracking App
+    start-date: 2024-07
+    summary:
+      - "WalletWize is an all-in-one expense tracker that helps users monitor spending habits and manage finances wisely."
+      - "It provides an easy-to-use interface for tracking daily expenditures, categorizing expenses, and charting spending over time."
+      - "I was involved with the development and deployment of the backend service, built using Flask, a Python framework, and deployed the project on AWS."
+      - "The backend synchronizes data transparently across all devices, securing financial information. Performance, scalability, and security are at the heart of what is delivered with the app so that people can depend on it for their personal finances."
+    links:
+      github: https://github.com/ahmedhozny/walletwize-api
+
+  - title: Warehouse API
+    subtitle: Warehouse Management App
+    start-date: 2023-12
+    end-date: 2024-04
+    summary:
+      - "The Warehouse API is a comprehensive solution designed to streamline warehouse management and optimize inventory control."
+      - "This API provides functionalities for managing inventory, processing rental transactions, and tracking item availability."
+      - "It features robust authentication mechanisms, including OAuth2, to ensure secure access to the system. Developed using FastAPI, the API supports efficient data handling and interactions."
+      - "Challenges addressed during development included implementing secure token-based authentication and navigating regulatory compliance for data privacy and security."
+    links:
+      github: https://github.com/SeragAmged/wareHouseApi
+
+  - title: Virtual File System
+    subtitle: File Management Simulation in Java
+    start-date: 2023-12
+    summary:
+      - "A Java-based simulation designed to model file system operations within a virtual environment."
+      - "It includes classes for managing virtual files and folders, as well as a File Allocation Table (FAT) to track block allocations."
+      - "The project allows for the creation, manipulation, and organization of files and folders, providing a practical tool for understanding file system architecture and operations."
+      - "Key components include file attribute management, folder entry handling, and block allocation tracking."
+    links:
+      github: https://github.com/ahmedhozny/FileSystem-java
+
+  - title: SimpleShell
+    subtitle: UNIX Command Interpreter
+    start-date: 2023-08
+    end-date: 2023-09
+    summary:
+      - "SimpleShell is a basic re-implementation of a UNIX command interpreter designed to handle various UNIX commands."
+      - "It supports both interactive and non-interactive modes, offering a versatile tool for executing commands and managing processes."
+      - "Developed using C and UNIX system calls, SimpleShell provides foundational functionality for command execution, process control, and system interaction."
+      - "Built with GCC, it demonstrates essential concepts in operating systems and command-line interfaces."
+    links:
+      github: https://github.com/ahmedhozny/simple_shell
+
+skills:
+  languages:
+    - name: Java
+      icon: https://cdn.simpleicons.org/openjdk/6c757d?viewbox=auto
+    - name: Python
+      icon: https://cdn.simpleicons.org/python/6c757d?viewbox=auto
+    - name: PHP
+      icon: https://cdn.simpleicons.org/php/6c757d?viewbox=auto
+    - name: Javascript
+      icon: https://cdn.simpleicons.org/javascript/6c757d?viewbox=auto
+    - name: C
+      icon: https://cdn.simpleicons.org/c/6c757d?viewbox=auto
+    - name: R
+      icon: https://cdn.simpleicons.org/r/6c757d?viewbox=auto
+
+  tools:
+    - name: Spring Framework
+      icon: https://cdn.simpleicons.org/spring/6c757d?viewbox=auto
+    - name: Flask Framework
+      icon: https://cdn.simpleicons.org/flask/6c757d?viewbox=auto
+    - name: FastAPI Framework
+      icon: https://cdn.simpleicons.org/fastapi/6c757d?viewbox=auto
+    - name: Cucumber
+      icon: https://cdn.simpleicons.org/cucumber/6c757d?viewbox=auto
+    - name: Jupyter
+      icon: https://cdn.simpleicons.org/jupyter/6c757d?viewbox=auto
+    - name: AWS
+      icon: https://cdn.simpleicons.org/amazonwebservices/6c757d?viewbox=auto
+    - name: Google Cloud
+      icon: https://cdn.simpleicons.org/googlecloud/6c757d?viewbox=auto
+    - name: Jetbrains
+      icon: https://cdn.simpleicons.org/jetbrains/6c757d?viewbox=auto
+
+  databases:
+    - name: MySQL
+      icon: https://cdn.simpleicons.org/mysql/6c757d?viewbox=auto
+    - name: MongoDB
+      icon: https://cdn.simpleicons.org/mongodb/6c757d?viewbox=auto
+    - name: SQLite
+      icon: https://cdn.simpleicons.org/sqlite/6c757d?viewbox=auto
+    - name: Redis
+      icon: https://cdn.simpleicons.org/redis/6c757d?viewbox=auto
+
+  workflow:
+    - 'Test-Driven Development (TDD)'
+    - 'Continuous Integration/Continuous Deployment (CI/CD)'
+    - 'RESTful API Design & Development'
+    - 'Microservices Architecture'
+    - 'Performance Optimization & Scaling'
+    - 'Agile Development & Scrum'
+
+certifications:
+  - "ICPC ECPC Collegiate Programming – 3 times contestant"
+  - "Backend Testing - Udacity (Egypt FWD program)"
+  - "Artificial Intelligence Training - Digital Hub"
+  - "Business Intelligence Analytics – IBM Egypt"
