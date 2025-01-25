@@ -57,7 +57,29 @@ education:
     start-date: 2017-09
     end-date: 2020-06
 
+experience:
+  - title: Software Engineer (Trainee)
+    company: ALX Software Engineering
+    start-date: 2023-05
+    end-date: 2024-08
+    summary:
+      - "Engaged in intensive backend development projects through ALX’s software engineering program, with a focus on building robust and scalable server-side applications."
+      - "Developed APIs and backend systems using Python frameworks, such as Flask and FastAPI, to support data-driven applications and enhance operational efficiency."
+      - "Worked on projects involving databases, server configurations, and API integrations, applying best practices in database management, security protocols, and RESTful architecture."
+      - "Gained expertise in debugging, testing, and performance optimization, ensuring that backend solutions meet high standards of reliability and scalability."
+      - "Collaborated with a team of developers, participated in code reviews, and adhered to Agile methodologies to deliver timely, high-quality software solutions."
+
 projects:
+  - title: Accounting Automation System
+    subtitle: Freelancing
+    start-date: 2024-12
+    summary:
+      - "Designed and implemented an Excel-based financial management tool using VBA that automates accounting workflows."
+      - "Automatic generation of Balance Sheets, Income Statements, and Cost Centers."
+      - "Developed a user-friendly dashboard displaying key financial statistics and transactions tracking."
+      - "Automated complex calculations and report production, considerably lowering accountants' workload by guaranteeing that a single entry triggers all necessary adjustments."
+      - "Demo link will be published soon. Please contact me for instant demo access."
+
   - title: Drug Guardian Pro
     subtitle: Enhancing Drug Combination Safety - University Final Project
     start-date: 2023-10
