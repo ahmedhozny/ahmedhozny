@@ -1,6 +1,5 @@
 name: Ahmed Hosny
 bio: "I'm a full-stack developer at Ninova Technology in Doha, working on NBMS, an ERP system for construction and contracting companies. Most of my work is in Java and Spring Boot on the backend and Angular on the frontend. I studied Computers and Data Science at Alexandria University and got into programming through competitive programming, which still shapes how I approach problems."
-resume-link: https://drive.google.com/file/d/1REHHZrjXdho17q-M1VFnIbT3NYpy1DBb/view?usp=sharing
 addresses:
   - country: Qatar
     city: Doha
@@ -62,34 +61,24 @@ experience:
     company: Ninova Technology
     start-date: 2025-08
     summary:
-      - "Work on NBMS, the company's ERP for construction and contracting firms, covering finance, procurement, HR and document management."
-      - "Reworked payment processing so the different payment types share one consistent flow."
-      - "Built the email and notification system, and a QR code check that confirms whether a printed document is genuine."
-      - "Added Arabic support across the app, from translated content to right-to-left PDFs."
-      - "Handle much of the database side, including schema changes, migrations and performance tuning."
+      - "Work across the backend (Java, Spring Boot, Hibernate, MySQL) and frontend (Angular) of NBMS, an ERP that runs procurement, finance, subcontracting, HR, inventory and fleet for a group of construction and contracting companies."
+      - "Redesigned the inventory module: a new store hierarchy and stock ledger, delivery notes in place of stock requests, and the migration of the live stock data into it."
+      - "Reworked payment processing so every payment type (purchase orders, subcontracts, payroll, petty cash, HR requests) shares one flow, then added partial payments, foreign-currency cheques, letters of credit and bank-facility funding, with a sync-token check that stops concurrent edits overwriting each other."
+      - "Built a central VAT engine used by quotations, purchase orders, subcontracts and payment certificates, and reworked purchase-order invoicing into an ordered invoice stack with advance conditions and supplier-submitted delivery notes."
+      - "Tightened access control: company-scoped roles and record visibility, delegated approvals, and an OTP-backed step-up code guarding salary and other sensitive data."
+      - "Built QR verification for printed documents, placeholder-based email templates with a sent-email log and bulk retry, and Arabic letters backed by a cached AWS Translate service with per-context terminology and an LLM spell check (Claude on AWS Bedrock)."
+      - "Handle much of the database side: Liquibase migrations and backfills on production data, and a reusable JPA Criteria toolkit for the filtered, projected queries behind the app's logs."
 
   - title: Software Engineer (Trainee)
     company: ALX Software Engineering
     start-date: 2023-05
     end-date: 2024-08
     summary:
-      - "Engaged in intensive backend development projects through ALX's software engineering program, with a focus on building robust and scalable server-side applications."
-      - "Developed APIs and backend systems using Python frameworks, such as Flask and FastAPI, to support data-driven applications and enhance operational efficiency."
-      - "Worked on projects involving databases, server configurations, and API integrations, applying best practices in database management, security protocols, and RESTful architecture."
-      - "Gained expertise in debugging, testing, and performance optimization, ensuring that backend solutions meet high standards of reliability and scalability."
-      - "Collaborated with a team of developers, participated in code reviews, and adhered to Agile methodologies to deliver timely, high-quality software solutions."
+      - "Completed ALX's software engineering program and its backend specialization."
+      - "Built REST APIs in Python (Flask) and Node.js, including an AirBnB clone API and a file manager service with authentication, pagination and background jobs."
+      - "Worked with MySQL, MongoDB and Redis for storage, caching and user session handling."
 
 projects:
-  - title: Accounting Automation System
-    subtitle: Freelancing
-    start-date: 2024-12
-    summary:
-      - "Designed and implemented an Excel-based financial management tool using VBA that automates accounting workflows."
-      - "Automatic generation of Balance Sheets, Income Statements, and Cost Centers."
-      - "Developed a user-friendly dashboard displaying key financial statistics and transactions tracking."
-      - "Automated complex calculations and report production, considerably lowering accountants' workload by guaranteeing that a single entry triggers all necessary adjustments."
-      - "Demo link will be published soon. Please contact me for instant demo access."
-
   - title: Drug Guardian Pro
     subtitle: Enhancing Drug Combination Safety - University Final Project
     start-date: 2023-10
@@ -102,9 +91,21 @@ projects:
     links:
       github: https://github.com/ahmedhozny/drug-guardian-api
 
+  - title: Accounting Automation System
+    subtitle: Freelancing
+    start-date: 2024-12
+    end-date: 2025-05
+    summary:
+      - "Designed and implemented an Excel-based financial management tool using VBA that automates accounting workflows."
+      - "Automatic generation of Balance Sheets, Income Statements, and Cost Centers."
+      - "Developed a user-friendly dashboard displaying key financial statistics and transactions tracking."
+      - "A single entry triggers every dependent calculation and report, which cut the accountants' manual work considerably."
+      - "Demo available on request."
+
   - title: WalletWize
     subtitle: Expense Tracking App
     start-date: 2024-07
+    end-date: 2024-07
     summary:
       - "WalletWize is an all-in-one expense tracker that helps users monitor spending habits and manage finances wisely."
       - "It provides an easy-to-use interface for tracking daily expenditures, categorizing expenses, and charting spending over time."
@@ -128,6 +129,7 @@ projects:
   - title: Virtual File System
     subtitle: File Management Simulation in Java
     start-date: 2023-12
+    end-date: 2023-12
     summary:
       - "A Java-based simulation designed to model file system operations within a virtual environment."
       - "It includes classes for managing virtual files and folders, as well as a File Allocation Table (FAT) to track block allocations."
@@ -156,20 +158,18 @@ skills:
       icon: https://cdn.simpleicons.org/typescript/6c757d?viewbox=auto
     - name: Python
       icon: https://cdn.simpleicons.org/python/6c757d?viewbox=auto
-    - name: PHP
-      icon: https://cdn.simpleicons.org/php/6c757d?viewbox=auto
     - name: Javascript
       icon: https://cdn.simpleicons.org/javascript/6c757d?viewbox=auto
     - name: C
       icon: https://cdn.simpleicons.org/c/6c757d?viewbox=auto
-    - name: R
-      icon: https://cdn.simpleicons.org/r/6c757d?viewbox=auto
 
   tools:
     - name: Spring Framework
       icon: https://cdn.simpleicons.org/spring/6c757d?viewbox=auto
     - name: Hibernate
       icon: https://cdn.simpleicons.org/hibernate/6c757d?viewbox=auto
+    - name: Liquibase
+      icon: https://cdn.simpleicons.org/liquibase/6c757d?viewbox=auto
     - name: Angular
       icon: https://cdn.simpleicons.org/angular/6c757d?viewbox=auto
     - name: Flask Framework
@@ -200,12 +200,10 @@ skills:
       icon: https://cdn.simpleicons.org/redis/6c757d?viewbox=auto
 
   workflow:
-    - 'Test-Driven Development (TDD)'
-    - 'Continuous Integration/Continuous Deployment (CI/CD)'
     - 'RESTful API Design & Development'
-    - 'Microservices Architecture'
-    - 'Performance Optimization & Scaling'
-    - 'Agile Development & Scrum'
+    - 'Relational Schema Design & Database Migrations'
+    - 'Approval Workflows & Role-Based Access Control'
+    - 'Query & Performance Optimization'
 
 certifications:
   - "ICPC ECPC Collegiate Programming – 3 times contestant"
