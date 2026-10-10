@@ -1,5 +1,5 @@
 name: Ahmed Hosny
-bio: "A recent computing and data science graduate with a strong foundation in backend engineering, specializing in Java, Python, and PHP. My passion for coding began years ago, leading to a deep understanding of problem-solving and competitive programming. I am ready to contribute my skills and advance in a dynamic software engineer role."
+bio: "I'm a full-stack developer at Ninova Technology in Doha, working on NBMS, an ERP system for construction and contracting companies. Most of my work is in Java and Spring Boot on the backend and Angular on the frontend. I studied Computers and Data Science at Alexandria University and got into programming through competitive programming, which still shapes how I approach problems."
 resume-link: https://drive.google.com/file/d/1REHHZrjXdho17q-M1VFnIbT3NYpy1DBb/view?usp=sharing
 addresses:
   - country: Qatar
@@ -58,12 +58,22 @@ education:
     end-date: 2020-06
 
 experience:
+  - title: Full-Stack Software Developer
+    company: Ninova Technology
+    start-date: 2025-08
+    summary:
+      - "Work on NBMS, the company's ERP for construction and contracting firms, covering finance, procurement, HR and document management."
+      - "Reworked payment processing so the different payment types share one consistent flow."
+      - "Built the email and notification system, and a QR code check that confirms whether a printed document is genuine."
+      - "Added Arabic support across the app, from translated content to right-to-left PDFs."
+      - "Handle much of the database side, including schema changes, migrations and performance tuning."
+
   - title: Software Engineer (Trainee)
     company: ALX Software Engineering
     start-date: 2023-05
     end-date: 2024-08
     summary:
-      - "Engaged in intensive backend development projects through ALX’s software engineering program, with a focus on building robust and scalable server-side applications."
+      - "Engaged in intensive backend development projects through ALX's software engineering program, with a focus on building robust and scalable server-side applications."
       - "Developed APIs and backend systems using Python frameworks, such as Flask and FastAPI, to support data-driven applications and enhance operational efficiency."
       - "Worked on projects involving databases, server configurations, and API integrations, applying best practices in database management, security protocols, and RESTful architecture."
       - "Gained expertise in debugging, testing, and performance optimization, ensuring that backend solutions meet high standards of reliability and scalability."
@@ -142,6 +152,8 @@ skills:
   languages:
     - name: Java
       icon: https://cdn.simpleicons.org/openjdk/6c757d?viewbox=auto
+    - name: TypeScript
+      icon: https://cdn.simpleicons.org/typescript/6c757d?viewbox=auto
     - name: Python
       icon: https://cdn.simpleicons.org/python/6c757d?viewbox=auto
     - name: PHP
@@ -156,10 +168,16 @@ skills:
   tools:
     - name: Spring Framework
       icon: https://cdn.simpleicons.org/spring/6c757d?viewbox=auto
+    - name: Hibernate
+      icon: https://cdn.simpleicons.org/hibernate/6c757d?viewbox=auto
+    - name: Angular
+      icon: https://cdn.simpleicons.org/angular/6c757d?viewbox=auto
     - name: Flask Framework
       icon: https://cdn.simpleicons.org/flask/6c757d?viewbox=auto
     - name: FastAPI Framework
       icon: https://cdn.simpleicons.org/fastapi/6c757d?viewbox=auto
+    - name: Docker
+      icon: https://cdn.simpleicons.org/docker/6c757d?viewbox=auto
     - name: Cucumber
       icon: https://cdn.simpleicons.org/cucumber/6c757d?viewbox=auto
     - name: Jupyter
